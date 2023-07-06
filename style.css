@@ -25,3 +25,41 @@
     width: 100px;
     padding: 5px;
 }
+
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./images/background.png),linear-gradient(45deg,rgb(153, 28, 28),#0bd336);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.photo{
+    width: 300px;
+}
+
+.title{
+    font-size: 54px;
+    font-weight: bold;
+}
+.descriptions{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
